@@ -1,0 +1,837 @@
+/* General Styles */
+
+body {
+  padding-top: 100px;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between
+}
+
+nav {
+  box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
+}
+
+.bg-dark {
+  background-color: #58833C !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  transition:all 0.3s ease;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  filter: brightness(90%);
+}
+
+.navbar-brand > img {
+  max-height: 75px
+}
+
+.jumbotron {
+  background: none
+}
+
+a:hover {
+  text-decoration: none;  
+}
+
+.btn-light {
+  transition:all 0.3s ease;
+}
+
+.btn-light:hover {
+  filter: brightness(90%);
+}
+
+.image-text-container {
+  position: relative;
+  transition:all 0.3s ease;
+}
+
+.image-text-container:hover {
+  filter: brightness(90%);
+}
+
+.card {
+  border-radius: 0px!important; 
+  border: none!important;
+}
+
+.grid-container-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);;
+  padding: 20px;
+  grid-gap: 20px;
+}
+
+.grid-container-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 20px;
+  grid-gap: 20px;
+}
+
+.container-fluid a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.container-fluid a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+form .btn-light {
+  text-decoration: none;
+  color: #000000;
+}
+
+form .btn-light:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+.card-body {
+  padding: 1.25rem 1.25rem 0.50rem 1.25rem;
+}
+
+.card-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 0px 2px 3px #000000;
+}
+
+.card-image {
+  width: 100%; 
+  height: 15vw; 
+  object-fit: cover;
+}
+
+.card-text {
+  color: black;
+}
+
+img[alt="www.000webhost.com"] {
+  display: none;
+}
+
+.btn {
+  vertical-align: baseline;
+}
+
+#contactForm .form-control {
+  width: 90%;
+}
+
+.icons {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.icons a {
+  color: #000000;
+  text-decoration: none;
+} 
+
+.icons a:hover {
+  filter: brightness(120%);
+  text-decoration: none;
+}
+
+.icons i {
+  color: #58833C;
+  margin: 10px 10px 20px 0px;
+}
+
+#statement {
+  font-size: 0.8rem;
+}
+
+footer .fa {
+  color: white;
+  font-size: 18px;
+}
+
+footer > .container a {
+  color: white;
+  transition:all 0.3s ease;
+}
+
+footer > .container a:hover {
+  filter: brightness(90%);
+  text-decoration: none;
+}
+
+/* Page banners */
+
+.banner-container {
+  height: 50vh;
+  border-bottom: 2px solid #58833C;
+  margin-bottom: 30px;
+}
+
+.banner-text-container {
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner-title {
+  font-size: 80px;
+  color: white;
+  text-shadow: 0px 2px 3px #000000;
+}
+
+.banner-text {
+  font-size: 20px;
+  color: white;
+  text-shadow: 0px 2px 3px #000000;
+}
+
+.intro-text {
+  font-size: 1.3rem;
+  margin: 2rem 0rem;
+}
+
+#homepage-container {
+  background: center/cover no-repeat url(../images/banner.png);
+  background-blend-mode: multiply;
+  background-color: rgb(126, 126, 126);
+}
+
+#about-container {
+  background: center/cover no-repeat url(../images/about.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(126, 126, 126);
+}
+
+#our-approach-container {
+  background: center/cover no-repeat url(../images/our_approach.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(126, 126, 126);
+}
+
+#benefits-container {
+  background: center/cover no-repeat url(../images/benefits.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(126, 126, 126);
+}
+
+#join-us-container {
+  background: center/cover no-repeat url(../images/join_us_banner.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(126, 126, 126);
+}
+
+#contact-container {
+  background: center/cover no-repeat url(../images/contact.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(126, 126, 126);
+}
+
+#purpose-container {
+  background: center/cover no-repeat url(../images/purpose_banner.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(126, 126, 126);
+}
+
+#farming-container {
+  background: center/cover no-repeat url(../images/farming_banner.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(126, 126, 126);
+}
+
+#our-people-container {
+  background: center/cover no-repeat url(../images/our_people_banner.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(126, 126, 126);
+}
+
+#documents-container {
+  background: center/cover no-repeat url(../images/documents.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(126, 126, 126);
+}
+
+#board-meetings-container {
+  background: center/cover no-repeat url(../images/board_meetings.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(126, 126, 126);
+}
+
+#membership-container {
+  background: center/cover no-repeat url(../images/membership_banner.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(126, 126, 126);
+}
+
+#board-container {
+  background: center/cover no-repeat url(../images/board_banner.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(126, 126, 126);
+}
+
+#contractors-container {
+  background: center/cover no-repeat url(../images/contractors_banner.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(126, 126, 126);
+}
+
+#volunteers-container {
+  background: center/cover no-repeat url(../images/volunteers_banner.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(126, 126, 126);
+}
+
+#asking-farmers-container {
+  background: center/cover no-repeat url(../images/asking_farmers.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(126, 126, 126);
+}
+
+#assisting-farmers-container {
+  background: center/cover no-repeat url(../images/assisting_farmers_banner.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(126, 126, 126);
+}
+
+#connecting-farmers-container {
+  background: center/cover no-repeat url(../images/connecting_farmers_banner.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(126, 126, 126);
+}
+
+#social-outings-container {
+  background: center/cover no-repeat url(../images/social_outings.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(126, 126, 126);
+}
+
+#celebrations-container {
+  background: center/cover no-repeat url(../images/celebrations.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(126, 126, 126);
+}
+
+#newsletter-and-mailers-container {
+  background: center/cover no-repeat url(../images/newsletters_and_mailers.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(126, 126, 126);
+}
+
+#social-media-container {
+  background: center/cover no-repeat url(../images/social_media.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(126, 126, 126);
+}
+
+#representing-farmers-container {
+  background: center/cover no-repeat url(../images/representing_farmers.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(126, 126, 126);
+}
+
+#elected-officials-container {
+  background: center/cover no-repeat url(../images/elected_officials_banner.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(126, 126, 126);
+}
+
+#laws-and-regulations-container {
+  background: center/cover no-repeat url(../images/laws_and_regulations.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(126, 126, 126);
+}
+
+#voter-education-container {
+  background: center/cover no-repeat url(../images/voter_education.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(126, 126, 126);
+}
+
+#advisory-councils-and-committees-container {
+  background: center/cover no-repeat url(../images/advisory_councils_and_committees_banner.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(126, 126, 126);
+}
+
+#organizational-support-container {
+  background: center/cover no-repeat url(../images/organizational_support.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(126, 126, 126);
+}
+
+#sharing-knowledge-with-farmers-container {
+  background: center/cover no-repeat url(../images/sharing_knowledge_with_farmers.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(126, 126, 126);
+}
+
+#scholarships-container {
+  background: center/cover no-repeat url(../images/scholarships_banner.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(126, 126, 126);
+}
+
+#conferences-container {
+  background: center/cover no-repeat url(../images/conferences_banner.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(126, 126, 126);
+}
+
+#learning-events-container {
+  background: center/cover no-repeat url(../images/learning_events.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(126, 126, 126);
+}
+
+#workshops-container {
+  background: center/cover no-repeat url(../images/workshops.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(126, 126, 126);
+}
+
+#financial-support-container {
+  background: center/cover no-repeat url(../images/financial_support_banner.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(126, 126, 126);
+}
+
+#placeholder-container {
+  background: center/cover no-repeat url(../images/placeholder.png);
+  background-blend-mode: multiply;
+  background-color: rgb(126, 126, 126);
+}
+
+/* Thumbnails */
+
+#image-1 {
+  background: center/cover no-repeat url(../images/about.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(179, 179, 179);
+}
+
+#image-1-1 {
+  background: center/cover no-repeat url(../images/purpose.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(179, 179, 179);
+}
+
+#image-1-2 {
+  background: center/cover no-repeat url(../images/farming.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(179, 179, 179);
+}
+
+#image-1-3 {
+  background: center/cover no-repeat url(../images/our_people.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(179, 179, 179);
+}
+
+#image-1-3-1 {
+  background: center/cover no-repeat url(../images/membership.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(179, 179, 179);
+}
+
+#image-1-3-2 {
+  background: center/cover no-repeat url(../images/board.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(179, 179, 179);
+}
+
+#image-1-3-3 {
+  background: center/cover no-repeat url(../images/contractors.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(179, 179, 179);
+}
+
+#image-1-3-4 {
+  background: center/cover no-repeat url(../images/volunteers.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(179, 179, 179);
+}
+
+#image-1-4 {
+  background: center/cover no-repeat url(../images/documents.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(179, 179, 179);
+}
+
+#image-1-5 {
+  background: center/cover no-repeat url(../images/board_meetings.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(179, 179, 179);
+}
+
+#image-2 {
+  background: center/cover no-repeat url(../images/our_approach.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(179, 179, 179);
+}
+
+#image-2-1 {
+  background: center/cover no-repeat url(../images/asking_farmers.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(179, 179, 179);
+}
+
+#image-2-2 {
+  background: center/cover no-repeat url(../images/assisting_farmers.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(179, 179, 179);
+}
+
+#image-2-2-1 {
+  background: center/cover no-repeat url(../images/placeholder.png);
+  background-blend-mode: multiply;
+  background-color: rgb(179, 179, 179);
+}
+
+#image-2-3 {
+  background: center/cover no-repeat url(../images/connecting_farmers.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(179, 179, 179);
+}
+
+#image-2-3-1 {
+  background: center/cover no-repeat url(../images/social_outings.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(179, 179, 179);
+}
+
+#image-2-3-2 {
+  background: center/cover no-repeat url(../images/celebrations.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(179, 179, 179);
+}
+
+#image-2-3-3 {
+  background: center/cover no-repeat url(../images/newsletters_and_mailers.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(179, 179, 179);
+}
+
+#image-2-3-4 {
+  background: center/cover no-repeat url(../images/social_media.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(179, 179, 179);
+}
+
+#image-2-4 {
+  background: center/cover no-repeat url(../images/representing_farmers.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(179, 179, 179);
+}
+
+#image-2-4-1 {
+  background: center/cover no-repeat url(../images/elected_officials.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(179, 179, 179);
+}
+
+#image-2-4-2 {
+  background: center/cover no-repeat url(../images/laws_and_regulations.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(179, 179, 179);
+}
+
+#image-2-4-3 {
+  background: center/cover no-repeat url(../images/voter_education.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(179, 179, 179);
+}
+
+#image-2-4-4 {
+  background: center/cover no-repeat url(../images/advisory_councils_and_committees.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(179, 179, 179);
+}
+
+#image-2-4-5 {
+  background: center/cover no-repeat url(../images/organizational_support.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(179, 179, 179);
+}
+
+#image-2-5 {
+  background: center/cover no-repeat url(../images/sharing_knowledge_with_farmers.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(179, 179, 179);
+}
+
+#image-2-5-1 {
+  background: center/cover no-repeat url(../images/scholarships.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(179, 179, 179);
+}
+
+#image-2-5-2 {
+  background: center/cover no-repeat url(../images/conferences.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(179, 179, 179);
+}
+
+#image-2-5-3 {
+  background: center/cover no-repeat url(../images/learning_events.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(179, 179, 179);
+}
+
+#image-2-5-4 {
+  background: center/cover no-repeat url(../images/workshops.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(179, 179, 179);
+}
+
+#image-2-5-5 {
+  background: center/cover no-repeat url(../images/financial_support.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(179, 179, 179);
+}
+
+#image-3 {
+  background: center/cover no-repeat url(../images/benefits.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(179, 179, 179);
+}
+
+#image-4 {
+  background: center/cover no-repeat url(../images/join_us.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(179, 179, 179);
+}
+
+/* Mobile styles */
+
+/* Banners & Images */
+
+@media only screen and (min-device-width : 320px) and (max-device-width: 479px) {
+  .banner-container {
+    height: 70vw;
+  }
+  .grid-container-3,
+  .grid-container-4 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card-image {
+    height: 60vw;
+  }
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 767px){
+  .banner-container {
+    height: 45vw;
+  }
+  .grid-container-3,
+  .grid-container-4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card-image {
+    height: 35vw;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+  .banner-container {
+    height: 60vw;
+  }
+  .grid-container-3,
+  .grid-container-4 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 50px;
+  }
+  .card-image {
+    height: 50vw;
+  }
+}
+
+@media only screen and (max-device-width: 1023px) {
+  #team .col-lg-4 {
+    text-align: center;
+  }
+  #team .col-lg-8 > h4 {
+    text-align: center;
+    margin: 1rem 0 2rem;
+  }
+}
+
+@media only screen and (max-device-width: 1200px) {
+  #join-us-container {
+    background: center/cover no-repeat url(../images/join_us.jpg);
+    background-blend-mode: multiply;
+    background-color: rgb(126, 126, 126);
+  }
+  #purpose-container {
+    background: center/cover no-repeat url(../images/purpose.jpg);
+    background-blend-mode: multiply;
+    background-color: rgb(126, 126, 126);
+  }
+  #farming-container {
+    background: center/cover no-repeat url(../images/farming.jpg);
+    background-blend-mode: multiply;
+    background-color: rgb(126, 126, 126);
+  }
+  #our-people-container {
+    background: center/cover no-repeat url(../images/our_people.jpg);
+    background-blend-mode: multiply;
+    background-color: rgb(179, 179, 179);
+  }
+  #membership-container {
+    background: center/cover no-repeat url(../images/membership.jpg);
+    background-blend-mode: multiply;
+    background-color: rgb(126, 126, 126);
+  }
+  #board-container {
+    background: center/cover no-repeat url(../images/board.jpg);
+    background-blend-mode: multiply;
+    background-color: rgb(126, 126, 126);
+  }
+  #contractors-container {
+    background: center/cover no-repeat url(../images/contractors.jpg);
+    background-blend-mode: multiply;
+    background-color: rgb(126, 126, 126);
+  }
+  #volunteers-container {
+    background: center/cover no-repeat url(../images/volunteers.jpg);
+    background-blend-mode: multiply;
+    background-color: rgb(126, 126, 126);
+  }
+  #assisting-farmers-container {
+    background: center/cover no-repeat url(../images/assisting_farmers.jpg);
+    background-blend-mode: multiply;
+    background-color: rgb(126, 126, 126);
+  }
+  #connecting-farmers-container {
+    background: center/cover no-repeat url(../images/connecting_farmers.jpg);
+    background-blend-mode: multiply;
+    background-color: rgb(126, 126, 126);
+  }
+  #elected-officials-container {
+    background: center/cover no-repeat url(../images/elected_officials.jpg);
+    background-blend-mode: multiply;
+    background-color: rgb(126, 126, 126);
+  }
+  #advisory-councils-and-committees-container {
+    background: center/cover no-repeat url(../images/advisory_councils_and_committees.jpg);
+    background-blend-mode: multiply;
+    background-color: rgb(126, 126, 126);
+  }
+  #scholarships-container {
+    background: center/cover no-repeat url(../images/scholarships.jpg);
+    background-blend-mode: multiply;
+    background-color: rgb(126, 126, 126);
+  }
+  #conferences-container {
+    background: center/cover no-repeat url(../images/conferences.jpg);
+    background-blend-mode: multiply;
+    background-color: rgb(126, 126, 126);
+  }
+  #financial-support-container {
+    background: center/cover no-repeat url(../images/financial_support.jpg);
+    background-blend-mode: multiply;
+    background-color: rgb(126, 126, 126);
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1200px) {
+  .banner-container {
+    height: 40vw;
+  }
+  .grid-container-3,
+  .grid-container-4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card-image {
+    height: 30vw;
+  }
+}
+
+/* Fonts */
+
+@media only screen and (min-device-width : 320px) and (max-device-width: 479px) {
+  .banner-title {
+    font-size: 3rem;
+  }
+  .banner-text {
+    font-size: 1rem;
+  }
+  .intro-text{
+    font-size: 1rem;
+  }
+  .btn {
+    margin-bottom: 1rem;x
+  }
+  #statement {
+    font-size: 0.6rem;
+  }
+  footer p {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (min-device-width : 480px) and (max-device-width: 767px) {
+  .banner-title {
+    font-size: 4rem;
+  }
+  .banner-text {
+    font-size: 1rem;
+  }
+  .intro-text,
+  .card-text,
+  .btn {
+    font-size: 0.9rem;
+  }
+  #statement {
+    font-size: 0.5rem;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+  .banner-title {
+    font-size: 6rem;
+  }
+  .banner-text {
+    font-size: 1.5rem;
+  }
+  .card-title {
+    font-size: 3rem;
+  }
+  .intro-text,
+  .card-text,
+  .btn {
+    font-size: 1.4rem;
+  }
+  .btn {
+    margin-bottom: 1rem;
+  }
+  #statement {
+    font-size: 0.8rem;
+  }
+  footer p {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1200px) {
+  .card-title {
+    font-size: 2rem;
+  }
+  .intro-text,
+  .card-text,
+  .btn {
+    font-size: 1rem;
+  }
+}
