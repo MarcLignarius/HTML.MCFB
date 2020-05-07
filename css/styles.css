@@ -131,6 +131,8 @@ img[alt="www.000webhost.com"] {
 .icons {
   margin-top: 50px;
   text-align: center;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .icons a {
