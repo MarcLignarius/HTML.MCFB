@@ -628,6 +628,9 @@ footer > .container a:hover {
   .card-image {
     height: 60vw;
   }
+  .icons {
+    flex-direction: columns;
+}
 }
 
 @media only screen and (min-device-width: 480px) and (max-device-width: 767px){
