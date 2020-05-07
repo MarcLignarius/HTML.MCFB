@@ -629,7 +629,7 @@ footer > .container a:hover {
     height: 60vw;
   }
   .icons {
-    flex-direction: columns;
+    flex-direction: column;
 }
 }
 
