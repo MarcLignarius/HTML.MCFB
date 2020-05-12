@@ -66,7 +66,20 @@ a:hover {
   border: none!important;
 }
 
-.grid-container-3 {
+.no-m-bottom {
+  margin-bottom: 0px;
+}
+
+.d-block {
+  display: block;
+}
+
+.p-bottom {
+  padding-bottom: 2rem;
+}
+
+.grid-container-3,
+.farm-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding: 20px;
@@ -78,35 +91,6 @@ a:hover {
   grid-template-columns: repeat(4, 1fr);;
   padding: 20px;
   grid-gap: 20px;
-}
-
-.grid-container-2 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 1rem;
-}
-
-.grid-container-2 .farm-info {
-  border-bottom: 1px solid rgb(190, 190, 190);
-  padding-bottom: 1rem;
-}
-
-.grid-container-2 .farm-info p {
-  margin-bottom: 0; 
-}
-
-.grid-container-2 .farm-offerings {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid rgb(190, 190, 190);
-}
-
-.grid-container-2 .farm-offerings p {
-  color: rgb(156, 155, 155);
-  margin-bottom: 0;
 }
 
 .present {
@@ -124,11 +108,6 @@ a:hover {
 iframe {
   width: 100%;
   height: 100%;
-}
-
-.grid-container-2 div:last-child,
-.grid-container-2 div:nth-last-child(2) {
-  margin-bottom: 1rem;
 }
 
 .container-fluid a {
@@ -684,16 +663,18 @@ footer > .container a:hover {
     max-width: 100px;
     text-align: center;
   }
-  .grid-container-2,
+
+  .farm-grid,
   .grid-container-3,
   .grid-container-4 {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
-  .grid-container-2 .farm-info {
-    border-bottom: none;
-    padding-bottom: 0;
+
+  .farm-grid {
+    padding: 5px;
   }
+  
   .map {
     height: 20rem;
   }
@@ -715,16 +696,15 @@ footer > .container a:hover {
     max-width: 100px;
     text-align: center;
   }
-  .grid-container-2 {
-    grid-template-columns: 1fr;
-  }
-  .grid-container-2 .farm-info {
-    border-bottom: none;
-    padding-bottom: 0;
-  }
+  
   .map {
     height: 20rem;
   }
+
+  .farm-grid {
+    grid-template-columns: 1fr;
+  }
+  
   .grid-container-3,
   .grid-container-4 {
     display: grid;
@@ -744,6 +724,10 @@ footer > .container a:hover {
     margin-left: 0;
     max-width: 100px;
     text-align: center;
+  }
+  .farm-grid{
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
   }
   .grid-container-3,
   .grid-container-4 {
@@ -851,6 +835,8 @@ footer > .container a:hover {
   .banner-container {
     height: 40vw;
   }
+  
+  .farm-grid,
   .grid-container-3,
   .grid-container-4 {
     display: grid;
