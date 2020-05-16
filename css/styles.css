@@ -78,6 +78,10 @@ a:hover {
   padding-bottom: 2rem;
 }
 
+.p-bottom em {
+  display: block;
+}
+
 .grid-container-3,
 .farm-grid {
   display: grid;
