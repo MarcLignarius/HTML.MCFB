@@ -80,6 +80,12 @@ a:hover {
 
 .p-bottom em {
   display: block;
+  font-style: normal;
+}
+
+.no-m-bottom + em,
+.d-block + em {
+  border-top: 1px solid #dedede;
 }
 
 .grid-container-3,
