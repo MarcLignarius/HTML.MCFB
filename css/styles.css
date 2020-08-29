@@ -459,6 +459,12 @@ footer > .container a:hover {
   background-color: rgb(126, 126, 126);
 }
 
+#opportunities-container {
+  background: center/cover no-repeat url(../images/opportunities-banner.png);
+  background-blend-mode: multiply;
+  background-color: rgb(126, 126, 126);
+}
+
 #placeholder-container {
   background: center/cover no-repeat url(../images/placeholder.png);
   background-blend-mode: multiply;
@@ -848,6 +854,11 @@ footer > .container a:hover {
   }
   #financial-support-container {
     background: center/cover no-repeat url(../images/financial_support.jpg);
+    background-blend-mode: multiply;
+    background-color: rgb(126, 126, 126);
+  }
+  #opportunities-container {
+    background: center/cover no-repeat url(../images/opportunities.png);
     background-blend-mode: multiply;
     background-color: rgb(126, 126, 126);
   }
