@@ -539,6 +539,12 @@ footer > .container a:hover {
   background-color: rgb(179, 179, 179);
 }
 
+#image-1-6 {
+  background: center/cover no-repeat url(../images/opportunities.png);
+  background-blend-mode: multiply;
+  background-color: rgb(179, 179, 179);
+}
+
 #image-2 {
   background: center/cover no-repeat url(../images/our_approach.jpg);
   background-blend-mode: multiply;
