@@ -694,7 +694,8 @@ footer > .container a:hover {
   .special {
     display: block;
     margin-left: 0;
-    max-width: 100px;
+    max-width: 120px;
+    margin-bottom: 10px;
     text-align: center;
   }
 
