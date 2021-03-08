@@ -36,6 +36,13 @@ nav {
   margin-left: 1rem;
 }
 
+.special-2 {
+  background: #fbf004;
+  color: #000 !important;
+  border-radius: 5px;
+  margin-left: 1rem;
+}
+
 .jumbotron {
   background: none
 }
