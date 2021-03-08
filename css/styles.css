@@ -356,6 +356,12 @@ hr {
   background-color: rgb(126, 126, 126);
 }
 
+#entities-for-local-farmers-container {
+  background: center/cover no-repeat url(../images/entities_for_local_farmers_banner.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(126, 126, 126);
+}
+
 #connecting-farmers-container {
   background: center/cover no-repeat url(../images/connecting_farmers_banner.jpg);
   background-blend-mode: multiply;
