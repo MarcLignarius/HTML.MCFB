@@ -709,7 +709,8 @@ hr {
   .banner-container {
     height: 70vw;
   }
-  .special {
+  .special,
+  .special-2 {
     display: block;
     margin-left: 0;
     max-width: 120px;
@@ -743,7 +744,8 @@ hr {
   .banner-container {
     height: 45vw;
   }
-  .special {
+  .special,
+  .special-2 {
     display: block;
     margin-left: 0;
     max-width: 100px;
@@ -772,7 +774,8 @@ hr {
   .banner-container {
     height: 60vw;
   }
-  .special {
+  .special,
+  .special-2 {
     display: block;
     margin-left: 0;
     max-width: 100px;
