@@ -267,6 +267,12 @@ hr {
   background-color: rgb(126, 126, 126);
 }
 
+#covid-container {
+  background: center/cover no-repeat url(../images/covid.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(126, 126, 126);
+}
+
 #about-container {
   background: center/cover no-repeat url(../images/about.jpg);
   background-blend-mode: multiply;
