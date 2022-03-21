@@ -453,6 +453,12 @@ hr {
   background-color: rgb(126, 126, 126);
 }
 
+#online-training-container {
+  background: center/cover no-repeat url(../images/online_training.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(126, 126, 126);
+}
+
 #conferences-container {
   background: center/cover no-repeat url(../images/conferences_banner.jpg);
   background-blend-mode: multiply;
@@ -695,6 +701,12 @@ hr {
   background-color: rgb(179, 179, 179);
 }
 
+#image-2-5-6 {
+  background: center/cover no-repeat url(../images/online_training.jpg);
+  background-blend-mode: multiply;
+  background-color: rgb(179, 179, 179);
+}
+
 #image-3 {
   background: center/cover no-repeat url(../images/benefits.jpg);
   background-blend-mode: multiply;
@@ -879,6 +891,11 @@ hr {
   }
   #scholarships-container {
     background: center/cover no-repeat url(../images/scholarships.jpg);
+    background-blend-mode: multiply;
+    background-color: rgb(126, 126, 126);
+  }
+  #online-training-container {
+    background: center/cover no-repeat url(../images/online_training.jpg);
     background-blend-mode: multiply;
     background-color: rgb(126, 126, 126);
   }
